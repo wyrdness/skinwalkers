@@ -1,556 +1,176 @@
-# Skinwalkers (Yee Naaldlooshii)
+# Skinwalker (Yee Naaldlooshii)
 
-> *"Some things are not meant to be spoken of."* — Navajo Elder
+> In some Indigenous American legends, a skinwalker (Navajo: yee naaldlooshii) is a harmful witch with the power to disguise itself as, transform into, or possess an animal. The figure is deeply embedded in Navajo tradition and is rarely discussed with outsiders.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Cultural Sensitivity](https://img.shields.io/badge/cultural_sensitivity-CRITICAL-red)]()
-[![Status](https://img.shields.io/badge/status-sacred_tradition-purple)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
-# ⚠️ CRITICAL CULTURAL SENSITIVITY WARNING ⚠️
-
-## THIS IS NOT ENTERTAINMENT
-
-**PLEASE READ THIS ENTIRE SECTION BEFORE PROCEEDING**
-
-This documentation concerns **Yee Naaldlooshii** (commonly known as "skinwalkers") - a subject of **SACRED AND TABOO** significance in Navajo (Diné) culture. This is **NOT**:
-
-- ❌ A "cryptid" to be hunted
-- ❌ A "paranormal phenomenon" to investigate  
-- ❌ Entertainment or "creepy story" material
-- ❌ A topic for casual discussion or social media
-- ❌ Something to be sensationalized or trivialized
-
-**This IS:**
-- ✅ A serious spiritual matter within Navajo belief systems
-- ✅ Equivalent to discussing witchcraft and murder in Navajo culture
-- ✅ A living tradition deserving utmost respect
-- ✅ A subject many Navajo people refuse to discuss
-- ✅ Sacred knowledge not meant for casual consumption
-
----
-
-## Why This Warning Exists
-
-### Sacred and Taboo
-
-In Navajo culture, **speaking about skinwalkers is believed to attract their attention and bring misfortune**. Many Navajo people will not discuss this topic even among themselves, especially not with outsiders. This is not superstition - it is deeply held spiritual belief that must be respected.
-
-### This Is Not Folklore
-
-Skinwalkers are not "mythical creatures" or "legends" to Navajo people. They are understood as **real spiritual threats** - human witches who have gained dark powers through the worst kind of taboo violations (including murder of close family members). This is as serious as discussing real witchcraft, black magic, and murder.
-
-### Cultural Appropriation Harm
-
-The commercialization of skinwalker beliefs (TV shows, "Skinwalker Ranch," horror movies, social media content) causes **active, ongoing harm** to Navajo communities by:
-
-- Trivializing and disrespecting sacred spiritual beliefs
-- Appropriating Indigenous culture for profit
-- Spreading misinformation and sensationalism  
-- Silencing authentic Navajo voices
-- Violating cultural boundaries and sovereignty
-
----
-
-## If You Are Not Navajo
-
-### You Must Understand:
-
-1. **You are an outsider to this tradition** - Respect that some knowledge is not for you
-2. **Navajo people are the ONLY authorities** - Not paranormal investigators, not TV shows, not this documentation
-3. **Their spiritual beliefs are valid** - Regardless of your personal worldview
-4. **Curiosity does not override respect** - Your interest does not entitle you to sacred knowledge
-5. **Commercial exploitation is harm** - "Skinwalker Ranch" and similar media deeply offend many Navajo
-
-### Respect Guidelines You Must Follow:
-
-#### DO:
-- ✅ Recognize this as legitimate Navajo spiritual belief
-- ✅ Respect Navajo sovereignty and cultural boundaries
-- ✅ Listen to and amplify Navajo voices
-- ✅ Support Navajo cultural preservation efforts
-- ✅ Acknowledge the limits of your understanding
-- ✅ Educate others about cultural appropriation
-
-#### DO NOT:
-- ❌ "Investigate" or "hunt" for skinwalkers
-- ❌ Visit Navajo Nation lands for this purpose (this is trespassing)
-- ❌ Treat this as entertainment or a "spooky story"
-- ❌ Share sensationalized "skinwalker stories" on social media
-- ❌ Support commercial exploitation (e.g., "Skinwalker Ranch" shows)
-- ❌ Appropriate Navajo terms for non-Navajo purposes
-- ❌ Demand "proof" or dismiss Navajo beliefs as "myth"
-- ❌ Claim expertise on this subject if you are not Navajo
-
----
-
-## Why This Documentation Exists
-
-This repository exists **NOT to sensationalize or encourage investigation**, but to:
-
-1. **Counter misinformation** spread by commercial media
-2. **Center Navajo perspectives** in discussions often dominated by outsiders
-3. **Educate about cultural appropriation** and its harms
-4. **Redirect curiosity toward respect** rather than exploitation
-5. **Provide accurate cultural context** often missing from popular media
-
-**If a Navajo person tells you not to discuss this topic, STOP IMMEDIATELY.** Their boundaries and beliefs take absolute precedence over your curiosity.
-
----
-
-## A Note on "Skinwalker Ranch"
-
-The property in Utah marketed as "Skinwalker Ranch" has **NOTHING to do with actual Navajo skinwalker beliefs**. This is commercial appropriation of a sacred Navajo term for profit. The "phenomena" reported there (UFOs, cryptids, paranormal activity) are not related to Navajo spiritual traditions.
-
-Many Navajo people find this commercialization **deeply offensive and disrespectful**. Supporting media about "Skinwalker Ranch" contributes to ongoing cultural harm.
-
----
-
-## Resources for Learning Respectfully
-
-If you wish to learn about Navajo culture respectfully:
-
-- **[Navajo Nation Museum](https://navajonationmuseum.org/)** - Window Rock, Arizona
-- **[Diné College](https://www.dinecollege.edu/)** - Navajo-led education
-- **Navajo Times** - Community news and perspectives
-- **Navajo Nation Historic Preservation Department**
-
-**Seek out Navajo voices, perspectives, and scholarship.** Listen to what Navajo people choose to share, and respect what they choose not to share.
-
----
-
-# If You Choose to Continue Reading
-
-You have been thoroughly warned about the cultural sensitivity required. By continuing, you commit to:
-
-- Treating this information with respect and gravity
-- Not using this for entertainment purposes
-- Not investigating, hunting, or seeking out skinwalkers
-- Not trespassing on Navajo lands
-- Respecting Navajo spiritual beliefs as valid
-- Not sharing sensationalized content on social media
-- Supporting Navajo cultural sovereignty
-
-**If you cannot commit to these principles, please close this document now.**
-
----
----
----
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `skinwalkers` |
 | **Category** | SHAPESHIFTER |
-| **Classification** | Malevolent Witch / Indigenous Tradition |
-| **First Recorded** | Ancient (Navajo oral tradition) |
-| **Primary Region** | Navajo Nation (Arizona, New Mexico, Utah) |
-| **Cultural Status** | Sacred and Taboo |
-| **Appropriate Investigation** | None by non-Navajo |
+| **Subcategory** | Navajo witchcraft tradition |
+| **First recorded** | Pre-contact |
+| **Primary range** | Yee naaldlooshii belief is specific to Navajo (Diné) communities of the Four Corners region of the southwestern United States |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-**Yee Naaldlooshii** (Navajo: "with it, he goes on all fours"), commonly known by the English term "skinwalkers," are a specific type of harmful witch in Navajo spiritual tradition. According to Navajo belief, these are human individuals who have gained dark supernatural powers through the violation of the most sacred taboos - including murder of close family members.
-
-They are said to possess the ability to transform into animals (most commonly coyotes, wolves, foxes, eagles, owls, or crows) by wearing the pelts of these creatures. They practice harmful magic and are associated with illness, death, and misfortune.
-
-### Critical Context
-
-This is **not** a cryptozoological phenomenon. This is **not** paranormal entertainment. This is a serious spiritual and cultural matter within Navajo tradition, equivalent to discussing witchcraft, black magic, and murder. Many Navajo people refuse to discuss this subject as speaking of skinwalkers is believed to attract their attention.
+Yee naaldlooshii — usually translated 'by means of it, it goes on all fours' — is one specific kind of 'ánti'įhnii, the broad Navajo category of witches. Skinwalkers are described as having gained malevolent supernatural power through the violation of cultural taboos, including the killing of a relative. They are said to be able to transform into, disguise themselves as, or possess animals — most often coyotes, wolves, foxes, owls, crows, and other creatures associated with tricksters, death, or ill omen. The skinwalker is the antithesis of the Navajo medicine person: where the latter uses ceremony for healing and balance, the skinwalker uses ceremonial knowledge for harm, sickness, and misfortune. Among Navajo people, the topic is treated with great seriousness and is not freely discussed with outsiders; both the figure and the discussion of it carry spiritual risk. Outside the Navajo cultural context, the term has been widely appropriated in cryptozoology, internet folklore, and entertainment media, often in ways that flatten or distort its specific cultural meaning. Major academic treatments include Clyde Kluckhohn's 'Navaho Witchcraft' (1944) and Margaret K. Brady's 'Some Kind of Power: Navajo Children's Skinwalker Narratives' (1984).
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Yee Naaldlooshii | Navajo (Diné Bizaad) / Navajo Nation, southwestern United States | 'By means of it, it goes on all fours' |
+| 'Ánti'įhnii | Navajo (Diné Bizaad) / Navajo Nation | Witch / one who practices witchcraft (broader category) |
+| Navajo witch | Southwestern United States |  |
 
-### Primary Name in Navajo
+## Etymology
 
-- **Yee Naaldlooshii** (Diné bizaad) — "with it, he goes on all fours"
-  - Refers to the ability to transform and move as an animal
-  - Traditional Navajo term - should be used with respect
-
-### English Term
-
-- **Skinwalker** — English translation/term
-  - Commonly used but increasingly appropriated by non-Navajo media
-  - Has become detached from cultural context in popular usage
-  - Many Navajo prefer the traditional Navajo terms
-
-### Important Note
-
-The casual use of these terms in entertainment, social media, or "paranormal investigation" contexts is disrespectful to Navajo culture. These are not casual words or entertainment fodder.
+- **Origin**: Navajo (Diné Bizaad). The English term 'skin-walker' is a calque/loose translation of yee naaldlooshii.
+- **Meaning**: Yee naaldlooshii is glossed as 'by means of it, it goes on all fours' or 'with it, he goes on all fours', referring to the use of an animal skin to move as that animal.
+- **First use**: Documented in English-language anthropological literature from the early–mid 20th century, notably Kluckhohn (1944).
 
 ---
+## Related Phenomena
 
-## Classification
-
-### Taxonomy
-
-```
-Category: SHAPESHIFTER
-├── Type: Malevolent Witch
-├── Subtype: Animal Transformation
-└── Cultural Context: Navajo Spiritual Tradition
-```
-
-**IMPORTANT**: This is not a "cryptid" classification. Skinwalkers are understood in Navajo tradition as **human witches with supernatural powers**, not unknown creatures or animals.
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Notes |
-|------------|--------------|-------|
-| Wendigo | Similar cultural context | Also sacred Indigenous belief, also misappropriated |
-| Nagual | Similar ability | Mesoamerican shapeshifter traditions |
-| Brujas | Similar type | Southwestern witchcraft traditions |
-
-**Note**: These comparisons are for structural understanding only. Each tradition must be respected in its own cultural context.
+- [Wendigo](../wendigo/) — _similar_: Algonquian malevolent transformative being from a distinct cultural tradition; sometimes wrongly conflated
+- [Nagual](../nagual/) — _similar_: Mesoamerican human-to-animal transformation tradition
+- [Loup-garou](../loup-garou/) — _similar_: European/Francophone werewolf tradition with shape-changing witches
+- [Soucouyant](../soucouyant/) — _similar_: Caribbean shape-shifting witch who sheds her skin
 
 ---
+## Physical Description
 
-## Characteristics
+- **Coloration**: Form-dependent: assumes the appearance of the animal whose form is taken
+- **Morphology**: A skinwalker is fundamentally a human practitioner of harmful magic; the 'monstrous' physical form is acquired through ritual, not innate biology. The physical signature varies by the animal whose form is taken.
 
-### Nature
+### Features
 
-Skinwalkers are **human beings** who have chosen to practice the darkest form of witchcraft. They are not a separate species or cryptid creatures. They are people who have violated the most sacred Navajo taboos to gain supernatural powers.
+| Feature | Description | Frequency |
+|---|---|---|
+| Animal form | Most commonly described as taking the form of a coyote, wolf, fox, owl, or crow; animals associated with tricksters and ill omen | always |
+| Distorted or unnatural movement | Witnesses report the assumed animal form moves in ways uncharacteristic of the species (e.g., upright posture, unnatural speed, anatomically wrong gait) | common |
+| Reflective or unnatural eyes | Some accounts describe eyes that catch light strangely or appear human within an animal face | occasional |
 
-### Physical Appearance
+## Reported Abilities
 
-#### Human Form
-- Appear as normal people
-- Their identity is typically hidden
-- May be members of the community
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Animal transformation | Ritual transformation into, possession of, or disguise as an animal — most often coyote, wolf, fox, owl, or crow | always | folklore |
+| Possession | May possess animals or, in some accounts, humans, inhabiting their bodies for malevolent ends | common | folklore |
+| Voice mimicry | Reported in modern oral tradition to imitate the voices of family members or animals to lure victims | occasional | folklore |
+| Curses and harmful ceremony | Use of inverted ceremonial knowledge to cause illness, misfortune, or death — the inverse of medicine-person practice | always | folklore |
 
-#### Animal Forms
+## Behavior
 
-Skinwalkers are said to transform into animals by wearing their pelts:
-
-| Animal | Frequency | Significance |
-|--------|-----------|--------------|
-| Coyote | Most common | Trickster associations in Navajo culture |
-| Wolf | Common | Predator, power |
-| Fox | Common | Cunning, stealth |
-| Eagle | Occasional | Aerial observation |
-| Owl | Occasional | Night hunter, omen of death |
-| Crow | Occasional | Associated with death and witchcraft |
-
-### Identifying Signs (According to Tradition)
-
-| Sign | Description |
-|------|-------------|
-| Unusual eyes | Animals with human-like eyes or abnormal eye color |
-| Unnatural behavior | Animals showing intelligence or behavior beyond normal |
-| Incomplete transformation | Animals with human features or proportions |
-| Human items | Animals wearing or carrying human clothing/jewelry |
-
-### Abilities (According to Navajo Belief)
-
-| Ability | Description |
-|---------|-------------|
-| Shapeshifting | Transform into animals using their pelts |
-| Supernatural speed | Run at inhuman speeds |
-| Mind manipulation | Can lock eyes and control minds |
-| Voice mimicry | Mimic voices of loved ones to lure victims |
-| Harmful magic | Use of corpse powder and other dark practices (extremely taboo) |
-
-### Behavior
-
-- **Active Period**: Primarily nocturnal
-- **Intent**: Malevolent - cause harm, spread fear, practice dark magic
-- **Targets**: Often specific individuals or families
-- **Associated Effects**: Illness, death, misfortune, feelings of dread
-
-**Many specific behavioral details are too sacred or taboo to document publicly.**
+- **Activity**: nocturnal
+- **Disposition**: aggressive
+- **Social structure**: solitary
+- **Habitat**: Remote rural areas of the Navajo Nation, High desert and canyon country, Areas around isolated homes (hogans)
+- **Diet**: Not described as predatory in a biological sense; the figure is a human witch and the harm is magical/social rather than nutritional
 
 ---
+## Distribution
 
-## Geographic and Cultural Context
+Yee naaldlooshii belief is specific to Navajo (Diné) communities of the Four Corners region of the southwestern United States. Outside that cultural context, an English-language 'skinwalker' folklore — often substantially altered from the Navajo tradition — circulates broadly across North American popular culture and the internet.
 
-### Primary Cultural Territory
+### Hotspots
 
-**Navajo Nation (Diné Bikéyah)**
-- Arizona, New Mexico, Utah, and small areas of Colorado
-- This is the homeland and sovereign territory of the Navajo people
-- Skinwalker beliefs are specifically **NAVAJO** spiritual tradition
-
-### Important Clarification
-
-This is **not** a phenomenon that occurs everywhere. It is rooted in **specific Navajo spiritual and cultural context**. Reports from outside Navajo territories often represent:
-
-- Misidentification of other phenomena
-- Misappropriation of Navajo terminology
-- Misunderstanding of Navajo beliefs
-- Commercial exploitation (e.g., "Skinwalker Ranch" in Utah)
-
-### "Skinwalker Ranch" Clarification
-
-The property in northeastern Utah marketed as "Skinwalker Ranch" is **NOT** related to actual Navajo skinwalker beliefs. This is **cultural appropriation** - taking a sacred Navajo term and using it for commercial paranormal entertainment. The reported phenomena there (UFOs, cryptids, etc.) have nothing to do with Navajo spiritual traditions.
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Navajo Nation | Arizona / New Mexico / Utah, United States |  | Pre-contact–present |
 
 ---
+## Historical Timeline
 
-## Historical and Spiritual Context
+| Date | Event | Significance |
+|---|---|---|
+| Pre-contact | Yee naaldlooshii belief is part of long-standing Navajo oral tradition | Cultural baseline |
+| 1944 | Clyde Kluckhohn publishes 'Navaho Witchcraft' (Peabody Museum Papers) | Foundational anthropological treatment of Navajo witchcraft, including yee naaldlooshii |
+| 1984 | Margaret K. Brady publishes 'Some Kind of Power: Navajo Children's Skinwalker Narratives' | Folkloristic study of how skinwalker narratives are told and transmitted within Navajo communities |
 
-### Origins
+## Evidence
 
-Skinwalker beliefs are rooted deep in Navajo spiritual tradition and oral history, predating European contact by centuries or millennia. They are part of a complex worldview involving:
+### Documentary
 
-- **Hózhǫ́** (harmony, beauty, balance) - the central Navajo value
-- The consequences of violating sacred laws and taboos
-- The existence of both healing and harmful spiritual powers
-- The responsibility of individuals to maintain balance
-
-### Spiritual Significance
-
-Within Navajo cosmology, skinwalkers represent the **darkest violation** of Navajo values. They are individuals who have:
-
-- Killed close family members (the worst taboo)
-- Violated sacred laws for personal power
-- Chosen the path of harm over healing
-- Destroyed hózhǫ́ (harmony) for themselves and others
-
-This is not folklore or mythology - it is part of Navajo spiritual understanding of good, evil, and moral consequences.
-
-### Why Many Navajo Don't Discuss This
-
-1. **Speaking of them attracts attention** - Believed to draw skinwalkers' focus and bring bad luck
-2. **Sacred and private knowledge** - Not meant for casual conversation or outside consumption
-3. **Fear and respect** - These are serious spiritual threats, not entertainment
-4. **Cultural boundaries** - Some knowledge is not for outsiders
-5. **Protection of community** - Keeping these matters within appropriate spiritual contexts
-
-**If a Navajo person does not want to discuss this topic, their boundaries must be absolutely respected.**
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Navaho Witchcraft (Kluckhohn 1944) |  | Anthropological monograph documenting the structure of Navajo witchcraft beliefs, including yee naaldlooshii. | verified |
+| Some Kind of Power (Brady 1984) |  | Study of Navajo children's skinwalker narratives and their social function. | verified |
 
 ---
+## Theories & Explanations
 
-## Modern Context and Appropriation Issues
+### Paranormal / Cryptozoological
 
-### Commercial Exploitation
+**Genuine practitioner of harmful magic** _(Internal Navajo cultural tradition)_
 
-The past several decades have seen increasing commercial exploitation of skinwalker beliefs:
+Within Navajo cultural understanding, yee naaldlooshii are real practitioners of inverted ceremony whose harmful effects are addressed through medicine-person ceremony rather than secular skepticism.
 
-#### "Skinwalker Ranch" (1990s-present)
-- Property in Utah appropriating Navajo terminology
-- Has nothing to do with actual Navajo beliefs
-- Multiple TV shows and media franchises
-- **Deeply offensive to many Navajo people**
+### Skeptical
 
-#### Television and Film
-- Various horror movies and TV shows
-- "Paranormal investigation" programs
-- Sensationalized and inaccurate portrayals
-- Treat sacred beliefs as entertainment
+**Folkloric / sociological function** _(Clyde Kluckhohn, Margaret K. Brady)_
 
-#### Social Media and Internet
-- "Creepypasta" and horror content
-- Viral videos claiming "skinwalker" encounters
-- Stories divorced from cultural context
-- Spread of misinformation and fear-mongering
+Anthropologists analyze witchcraft accusations, including skinwalker narratives, as a means of social regulation, boundary-marking, and the explanation of misfortune within a community.
 
-### Why This Is Harmful
+**Cultural appropriation in popular media** _(Adrienne Keene, Various Native studies scholars)_
 
-1. **Trivializes sacred beliefs** - Treats serious spiritual matters as spooky entertainment
-2. **Cultural appropriation** - Takes Indigenous terminology and strips it of meaning
-3. **Spreads misinformation** - Public gets inaccurate understanding of Navajo beliefs
-4. **Silences Navajo voices** - Non-Navajo "experts" dominate the narrative
-5. **Violates spiritual protocols** - Disregards Navajo beliefs about speaking of these things
-6. **Profits from Indigenous culture** - Exploits sacred traditions for commercial gain
+Much of what circulates in non-Navajo media as 'skinwalker' phenomenology is unrelated to the Navajo tradition and is better analyzed as internet folklore than as evidence of the original belief.
 
-### The Impact on Navajo Communities
 
-Many Navajo people express frustration, offense, and pain over:
-- Their sacred beliefs being treated as horror entertainment
-- Non-Navajo people claiming authority on their traditions
-- Trespassing "investigators" on Navajo lands
-- Inability to control narratives about their own culture
-- Constant explanation and defense of their spiritual beliefs
+## Indigenous Perspectives
+
+> ⚠️ **Navajo cultural authorities and writers have repeatedly stated that skinwalker belief is not appropriate material for outsider entertainment, casual storytelling, or commercial cryptozoology. Conflation with non-Navajo traditions (e.g., Wendigo, generic 'shapeshifter') erases the specific cultural context.**
+
+**Cultures**: Navajo (Diné)
+
+Yee naaldlooshii is a specific feature of Navajo cosmology that should be understood within the broader Diné framework of hózhó (balance, beauty, harmony) and ceremony, not as a free-floating monster.
+
+_Guidelines: Defer to Navajo cultural authorities; do not use the Navajo term where a generic English term would suffice; do not commercialize, costume, or fictionalize the figure without Navajo consultation; cite Navajo voices directly._
+
+## Popular Culture
+
+**Literature**: Hunt for the Skinwalker — Colm Kelleher & George Knapp (2005); Some Kind of Power: Navajo Children's Skinwalker Narratives — Margaret K. Brady (1984); Navaho Witchcraft — Clyde Kluckhohn (1944)
+
+**Film / TV**: Skinwalkers (2002 PBS Mystery! adaptation of Tony Hillerman's novel); The Secret of Skinwalker Ranch (History, 2020–)
+
+**Other**: Widely circulated 'skinwalker' creepypasta and TikTok narratives — generally divorced from Navajo cultural context
 
 ---
+## Research
 
-## Appropriate Engagement
+### Researchers
 
-### If You Are Not Navajo
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Clyde Kluckhohn | Harvard University (anthropology) | Foundational anthropological study of Navajo witchcraft | 1930s–1944 |
+| Margaret K. Brady | University of Utah (folklore) | Study of how skinwalker narratives function in Navajo children's storytelling | 1970s–1984 |
+| Adrienne Keene | Brown University (American studies) | Critical commentary on appropriation of Indigenous traditions, including skinwalker imagery | 2010s–present |
 
-You should approach this subject with **extreme caution and respect**, if at all:
-
-#### Appropriate Actions:
-1. **Recognize limits** - Acknowledge this is not your culture or tradition
-2. **Listen to Navajo voices** - Seek out and amplify Navajo perspectives
-3. **Respect boundaries** - If Navajo people don't want to discuss it, respect that
-4. **Oppose appropriation** - Speak out against commercial exploitation
-5. **Support Navajo communities** - Contribute to cultural preservation efforts
-6. **Educate others** - Help people understand why appropriation is harmful
-
-#### Inappropriate Actions:
-1. ❌ "Investigating" or "hunting" skinwalkers
-2. ❌ Visiting Navajo Nation for this purpose (trespassing)
-3. ❌ Sharing "spooky stories" on social media
-4. ❌ Supporting commercial media (TV shows, etc.)
-5. ❌ Claiming expertise or authority
-6. ❌ Demanding "proof" of Navajo beliefs
-7. ❌ Treating this as entertainment
-
-### For Researchers and Educators
-
-If you are documenting or teaching about this topic:
-
-- **Center Navajo voices and scholarship**
-- Partner with or defer to Navajo scholars and cultural authorities
-- Clearly distinguish between Navajo beliefs and commercial appropriation
-- Emphasize cultural sensitivity and respect
-- Acknowledge your own cultural position and limitations
-- Do not sensationalize or trivialize
-- Obtain proper permissions and follow cultural protocols
+Active scholarship sits primarily within Native American studies and folklore departments rather than cryptozoology; key questions concern transmission, social function, and appropriation rather than 'verification'.
 
 ---
+## Sources
 
-## Navajo Resources and Voices
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-To learn about Navajo culture respectfully and from Navajo sources:
 
-### Educational Institutions
-- **[Diné College](https://www.dinecollege.edu/)** - Tsaile, Arizona (Navajo-led education)
-- **[Navajo Nation Museum](https://navajonationmuseum.org/)** - Window Rock, Arizona
+## How to Report a Sighting
 
-### News and Community Voices
-- **Navajo Times** - Community news and perspectives
-- **Navajo-Hopi Observer** - Regional news
-
-### Cultural Organizations
-- **Navajo Nation Historic Preservation Department**
-- **Navajo Nation Library System**
-
-### Important Note
-
-These resources are for learning about Navajo culture broadly. **Do not** contact these organizations specifically to ask about skinwalkers, as this would be disrespectful and they may not be willing to discuss this sacred/taboo subject with outsiders.
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Understanding vs. Belief
-
-### For Skeptics and Non-Believers
-
-You may not personally believe in skinwalkers as spiritual entities. **That is not the point.** What matters is:
-
-1. **Navajo people's beliefs are valid** - They deserve respect regardless of your worldview
-2. **Cultural sovereignty** - Navajo communities have the right to their own spiritual traditions
-3. **Real impacts** - Commercial appropriation causes real harm to real people
-4. **Not for you to judge** - Your skepticism doesn't override others' spiritual beliefs
-
-You can respectfully understand and honor Navajo beliefs about skinwalkers without personally believing in them.
-
-### The Goal Is Respect, Not Belief
-
-This documentation asks you to:
-- Respect Navajo cultural boundaries
-- Oppose appropriation and exploitation  
-- Listen to Navajo voices
-- Not cause harm through your actions
-
-It does **not** ask you to believe in skinwalkers yourself.
-
----
-
-## What You Should Take Away
-
-1. **Skinwalkers are serious spiritual matter** in Navajo culture, not entertainment
-2. **Speaking of them is taboo** - Many Navajo people refuse to discuss this
-3. **Commercial appropriation is harmful** - "Skinwalker Ranch" and similar media cause ongoing damage
-4. **Navajo voices are the only authorities** - Not TV shows, not paranormal investigators
-5. **Respect requires action** - Don't investigate, don't sensationalize, don't appropriate
-6. **Cultural sovereignty matters** - Navajo people have the right to their own traditions
-7. **Your curiosity is not more important** than respecting sacred beliefs
-
----
-
-## How to Use This Documentation
-
-This repository exists to:
-
-✅ **Counter misinformation** spread by commercial media  
-✅ **Provide accurate cultural context** often missing from discussions  
-✅ **Center Navajo perspectives** in outsider-dominated narratives  
-✅ **Educate about appropriation** and its real-world harms  
-✅ **Redirect curiosity** toward respect rather than exploitation  
-
-This documentation should **NOT** be used to:
-
-❌ Plan "investigations" or "hunts"  
-❌ Create entertainment content  
-❌ Sensationalize or trivialize  
-❌ Override Navajo voices and authority  
-❌ Appropriate cultural knowledge for personal use  
-
----
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json), structured with cultural sensitivity metadata.
-
-### Important Notes on Data Usage
-
-The API includes:
-- Cultural sensitivity warnings
-- Respect guidelines
-- Appropriation concerns
-- Navajo resource links
-
-Any use of this data must maintain cultural sensitivity and respect.
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography prioritizing Navajo and Indigenous authors.
-
-### Prioritized Source Types:
-1. Navajo oral tradition and cultural knowledge
-2. Navajo scholars and authors
-3. Indigenous anthropologists and researchers
-4. Respectful academic treatments
-5. (Last priority) Early anthropological works (often problematic)
-
----
-
-## Final Note
-
-If your interest in this topic is driven by:
-- Wanting a "cool spooky story"
-- Planning a paranormal investigation
-- Creating entertainment content
-- Thrill-seeking or curiosity without respect
-
-**Then this documentation is not for you, and you should not engage with this topic.**
-
-If your interest is driven by:
-- Genuine respect for Navajo culture
-- Desire to learn about cultural appropriation
-- Supporting Indigenous cultural sovereignty
-- Countering misinformation
-
-**Then engage thoughtfully, humbly, and always defer to Navajo voices and authority.**
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-Any use of this material must maintain cultural sensitivity and respect for Navajo traditions.
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-**This documentation was created with consultation of Indigenous voices and cultural sensitivity guidelines. It prioritizes respect for Navajo culture above all other considerations.**
-
-[Report Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-**DO NOT** submit "sighting reports" - this would be deeply disrespectful.
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

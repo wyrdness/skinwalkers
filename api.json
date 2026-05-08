@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/skinwalkers",
     "maintainers": [
       {
@@ -16,111 +16,254 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "skinwalkers",
-    "name": "Skinwalkers (Yee Naaldlooshii)",
-    "aliases": [],
+    "name": "Skinwalker (Yee Naaldlooshii)",
+    "aliases": [
+      { "name": "Yee Naaldlooshii", "language": "Navajo (Diné Bizaad)", "region": "Navajo Nation, southwestern United States", "meaning": "'By means of it, it goes on all fours'" },
+      { "name": "'Ánti'įhnii", "language": "Navajo (Diné Bizaad)", "region": "Navajo Nation", "meaning": "Witch / one who practices witchcraft (broader category)" },
+      { "name": "Navajo witch", "region": "Southwestern United States" }
+    ],
     "category": "SHAPESHIFTER",
-    "subcategory": "| Southwestern witchcraft traditions |",
+    "subcategory": "Navajo witchcraft tradition",
     "tags": [
+      "shapeshifter",
+      "witch",
+      "navajo",
+      "indigenous",
+      "southwestern-united-states",
       "folklore",
-      "mythology"
+      "harmful-magic"
     ],
     "status": "documented",
     "description": {
-      "summary": "They are said to possess the ability to transform into animals (most commonly coyotes, wolves, foxes, eagles, owls, or crows) by wearing the pelts of these creatures.",
-      "full": "They are said to possess the ability to transform into animals (most commonly coyotes, wolves, foxes, eagles, owls, or crows) by wearing the pelts of these creatures. They practice harmful magic and are associated with illness, death, and misfortune."
+      "summary": "In some Indigenous American legends, a skinwalker (Navajo: yee naaldlooshii) is a harmful witch with the power to disguise itself as, transform into, or possess an animal. The figure is deeply embedded in Navajo tradition and is rarely discussed with outsiders.",
+      "full": "Yee naaldlooshii — usually translated 'by means of it, it goes on all fours' — is one specific kind of 'ánti'įhnii, the broad Navajo category of witches. Skinwalkers are described as having gained malevolent supernatural power through the violation of cultural taboos, including the killing of a relative. They are said to be able to transform into, disguise themselves as, or possess animals — most often coyotes, wolves, foxes, owls, crows, and other creatures associated with tricksters, death, or ill omen. The skinwalker is the antithesis of the Navajo medicine person: where the latter uses ceremony for healing and balance, the skinwalker uses ceremonial knowledge for harm, sickness, and misfortune. Among Navajo people, the topic is treated with great seriousness and is not freely discussed with outsiders; both the figure and the discussion of it carry spiritual risk. Outside the Navajo cultural context, the term has been widely appropriated in cryptozoology, internet folklore, and entertainment media, often in ways that flatten or distort its specific cultural meaning. Major academic treatments include Clyde Kluckhohn's 'Navaho Witchcraft' (1944) and Margaret K. Brady's 'Some Kind of Power: Navajo Children's Skinwalker Narratives' (1984)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Navajo (Diné Bizaad). The English term 'skin-walker' is a calque/loose translation of yee naaldlooshii.",
+      "meaning": "Yee naaldlooshii is glossed as 'by means of it, it goes on all fours' or 'with it, he goes on all fours', referring to the use of an animal skin to move as that animal.",
+      "first_use": "Documented in English-language anthropological literature from the early–mid 20th century, notably Kluckhohn (1944)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "SHAPESHIFTER",
-      "type": "| Southwestern witchcraft traditions |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Witch / harmful magic-user",
+      "subtype": "Navajo yee naaldlooshii",
+      "variant": "Southwestern United States"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "wendigo", "name": "Wendigo", "relationship": "similar", "description": "Algonquian malevolent transformative being from a distinct cultural tradition; sometimes wrongly conflated" },
+      { "id": "nagual", "name": "Nagual", "relationship": "similar", "description": "Mesoamerican human-to-animal transformation tradition" },
+      { "id": "loup-garou", "name": "Loup-garou", "relationship": "similar", "description": "European/Francophone werewolf tradition with shape-changing witches" },
+      { "id": "soucouyant", "name": "Soucouyant", "relationship": "similar", "description": "Caribbean shape-shifting witch who sheds her skin" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["Form-dependent: assumes the appearance of the animal whose form is taken"],
+      "features": [
+        { "feature": "Animal form", "description": "Most commonly described as taking the form of a coyote, wolf, fox, owl, or crow; animals associated with tricksters and ill omen", "frequency": "always" },
+        { "feature": "Distorted or unnatural movement", "description": "Witnesses report the assumed animal form moves in ways uncharacteristic of the species (e.g., upright posture, unnatural speed, anatomically wrong gait)", "frequency": "common" },
+        { "feature": "Reflective or unnatural eyes", "description": "Some accounts describe eyes that catch light strangely or appear human within an animal face", "frequency": "occasional" }
+      ],
+      "morphology": "A skinwalker is fundamentally a human practitioner of harmful magic; the 'monstrous' physical form is acquired through ritual, not innate biology. The physical signature varies by the animal whose form is taken."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Animal transformation", "description": "Ritual transformation into, possession of, or disguise as an animal — most often coyote, wolf, fox, owl, or crow", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Possession", "description": "May possess animals or, in some accounts, humans, inhabiting their bodies for malevolent ends", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Voice mimicry", "description": "Reported in modern oral tradition to imitate the voices of family members or animals to lure victims", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Curses and harmful ceremony", "description": "Use of inverted ceremonial knowledge to cause illness, misfortune, or death — the inverse of medicine-person practice", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["Remote rural areas of the Navajo Nation", "High desert and canyon country", "Areas around isolated homes (hogans)"],
+      "diet": "Not described as predatory in a biological sense; the figure is a human witch and the harm is magical/social rather than nutritional",
+      "patterns": [
+        "Operates at night and at the margins of community life",
+        "Targets specific individuals, families, or households rather than random victims",
+        "Discussed only reluctantly within Navajo communities; the topic itself is considered dangerous",
+        "Identified through ceremony and the work of medicine people, not by physical confrontation"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Yee naaldlooshii belief is specific to Navajo (Diné) communities of the Four Corners region of the southwestern United States. Outside that cultural context, an English-language 'skinwalker' folklore — often substantially altered from the Navajo tradition — circulates broadly across North American popular culture and the internet.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Navajo Nation",
+        "Arizona",
+        "New Mexico",
+        "Utah",
+        "Colorado",
+        "Four Corners region"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Navajo Nation",
+        "location": {
+          "description": "Navajo Nation reservation lands across the Four Corners region",
+          "country": "United States",
+          "region": "Arizona / New Mexico / Utah",
+          "coordinates": { "latitude": 36.0, "longitude": -109.5 }
+        },
+        "peak_period": "Pre-contact–present",
+        "notes": "Cultural heartland of yee naaldlooshii tradition; topic generally not discussed publicly with outsiders."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Navajo oral tradition, predating systematic English-language documentation"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-1900", "description": "Long-standing oral tradition within Navajo communities" },
+        { "period": "1944–present", "description": "Anthropological documentation in English; Kluckhohn's monograph anchors academic treatment" },
+        { "period": "2000s–present", "description": "Widespread (and frequently inaccurate) circulation in cryptozoology, paranormal television, and internet folklore" }
+      ],
+      "seasonal_patterns": "No documented seasonal pattern; tradition emphasizes nocturnal activity rather than season."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The yee naaldlooshii tradition is part of the Navajo (Diné) understanding of witchcraft ('ánti'įhnii) and is embedded in a wider cosmology in which ceremony, balance (hózhó), and the proper use of knowledge are central. The skinwalker represents the inversion of that order.",
+      "earliest_accounts": "Long-standing Navajo oral tradition. Earliest substantial English-language scholarly account is Clyde Kluckhohn's 'Navaho Witchcraft' (Peabody Museum, 1944).",
+      "folklore_connections": "Part of a global tradition of magical shape-shifters and shape-changing witches that includes the Mesoamerican nagual, the European loup-garou, and the Caribbean soucouyant — though each tradition is culturally distinct and should not be conflated."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-contact", "event": "Yee naaldlooshii belief is part of long-standing Navajo oral tradition", "significance": "Cultural baseline", "source": "Navajo oral tradition" },
+      { "date": "1944", "event": "Clyde Kluckhohn publishes 'Navaho Witchcraft' (Peabody Museum Papers)", "significance": "Foundational anthropological treatment of Navajo witchcraft, including yee naaldlooshii", "source": "Kluckhohn, C. (1944), 'Navaho Witchcraft'" },
+      { "date": "1984", "event": "Margaret K. Brady publishes 'Some Kind of Power: Navajo Children's Skinwalker Narratives'", "significance": "Folkloristic study of how skinwalker narratives are told and transmitted within Navajo communities", "source": "Brady, M. K. (1984), University of Utah Press" }
+    ],
+    "modern_era": "In the 21st century, 'skinwalker' has been heavily appropriated outside its Navajo context — most prominently in connection with the so-called 'Skinwalker Ranch' in northeastern Utah (popularized by Colm Kelleher and George Knapp's 'Hunt for the Skinwalker', 2005) and in paranormal television, video games, and creepypasta. Navajo writers and scholars (e.g., Adrienne Keene) have repeatedly noted that this circulation strips the figure of its specific cultural meaning and that the topic is generally not appropriate for casual public discussion."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "pre-contact (oral tradition)", "latest": "present" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "skinwalkers-evidence-kluckhohn-1944",
+        "type": "ethnographic monograph",
+        "name": "Navaho Witchcraft (Kluckhohn 1944)",
+        "description": "Anthropological monograph documenting the structure of Navajo witchcraft beliefs, including yee naaldlooshii.",
+        "status": "verified",
+        "analysis": "A standard academic reference for the Navajo witchcraft complex; treats skinwalker belief as an internal cultural reality rather than a cryptozoological claim.",
+        "source": "Kluckhohn, C. (1944), Navaho Witchcraft, Peabody Museum Papers"
+      },
+      {
+        "id": "skinwalkers-evidence-brady-1984",
+        "type": "folkloristic study",
+        "name": "Some Kind of Power (Brady 1984)",
+        "description": "Study of Navajo children's skinwalker narratives and their social function.",
+        "status": "verified",
+        "analysis": "Important record of how the tradition is transmitted within Navajo families and communities.",
+        "source": "Brady, M. K. (1984), University of Utah Press"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Genuine practitioner of harmful magic",
+        "description": "Within Navajo cultural understanding, yee naaldlooshii are real practitioners of inverted ceremony whose harmful effects are addressed through medicine-person ceremony rather than secular skepticism.",
+        "proponents": ["Internal Navajo cultural tradition"],
+        "evidence_cited": ["Long-standing oral tradition", "Continuity of ceremonial response within Navajo communities"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folkloric / sociological function",
+        "description": "Anthropologists analyze witchcraft accusations, including skinwalker narratives, as a means of social regulation, boundary-marking, and the explanation of misfortune within a community.",
+        "proponents": ["Clyde Kluckhohn", "Margaret K. Brady"],
+        "evidence_cited": ["Kluckhohn's 1944 monograph", "Brady's 1984 study of children's narratives"]
+      },
+      {
+        "name": "Cultural appropriation in popular media",
+        "description": "Much of what circulates in non-Navajo media as 'skinwalker' phenomenology is unrelated to the Navajo tradition and is better analyzed as internet folklore than as evidence of the original belief.",
+        "proponents": ["Adrienne Keene", "Various Native studies scholars"],
+        "evidence_cited": ["Widespread non-Navajo use post-2005 'Skinwalker Ranch' publicity", "Lack of Navajo input in popular treatments"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Navajo (Diné) witchcraft tradition ('ánti'įhnii)"
+      ],
+      "stories": [
+        "Children's skinwalker narratives documented by Brady (1984)"
+      ],
+      "beliefs": "Within Navajo cultural understanding, yee naaldlooshii are real and dangerous; ceremonial responses (e.g., specific Navajo ceremonies performed by medicine people) address their harm. The topic is not for casual discussion, particularly with outsiders."
+    },
+    "indigenous": {
+      "cultures": ["Navajo (Diné)"],
+      "significance": "Yee naaldlooshii is a specific feature of Navajo cosmology that should be understood within the broader Diné framework of hózhó (balance, beauty, harmony) and ceremony, not as a free-floating monster.",
+      "sensitivity_note": "Navajo cultural authorities and writers have repeatedly stated that skinwalker belief is not appropriate material for outsider entertainment, casual storytelling, or commercial cryptozoology. Conflation with non-Navajo traditions (e.g., Wendigo, generic 'shapeshifter') erases the specific cultural context.",
+      "respect_guidelines": "Defer to Navajo cultural authorities; do not use the Navajo term where a generic English term would suffice; do not commercialize, costume, or fictionalize the figure without Navajo consultation; cite Navajo voices directly."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Hunt for the Skinwalker — Colm Kelleher & George Knapp (2005)",
+        "Some Kind of Power: Navajo Children's Skinwalker Narratives — Margaret K. Brady (1984)",
+        "Navaho Witchcraft — Clyde Kluckhohn (1944)"
+      ],
+      "film_tv": [
+        "Skinwalkers (2002 PBS Mystery! adaptation of Tony Hillerman's novel)",
+        "The Secret of Skinwalker Ranch (History, 2020–)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Widely circulated 'skinwalker' creepypasta and TikTok narratives — generally divorced from Navajo cultural context"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Clyde Kluckhohn", "affiliation": "Harvard University (anthropology)", "contribution": "Foundational anthropological study of Navajo witchcraft", "period": "1930s–1944" },
+      { "name": "Margaret K. Brady", "affiliation": "University of Utah (folklore)", "contribution": "Study of how skinwalker narratives function in Navajo children's storytelling", "period": "1970s–1984" },
+      { "name": "Adrienne Keene", "affiliation": "Brown University (American studies)", "contribution": "Critical commentary on appropriation of Indigenous traditions, including skinwalker imagery", "period": "2010s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Active scholarship sits primarily within Native American studies and folklore departments rather than cryptozoology; key questions concern transmission, social function, and appropriation rather than 'verification'."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "kluckhohn-1944", "type": "book", "title": "Navaho Witchcraft", "authors": ["Clyde Kluckhohn"], "publication": "Peabody Museum of American Archaeology and Ethnology, Harvard University", "date": "1944" },
+    { "id": "brady-1984", "type": "book", "title": "Some Kind of Power: Navajo Children's Skinwalker Narratives", "authors": ["Margaret K. Brady"], "publication": "University of Utah Press", "date": "1984", "isbn": "978-0874802269" },
+    { "id": "kelleher-knapp-2005", "type": "book", "title": "Hunt for the Skinwalker: Science Confronts the Unexplained at a Remote Ranch in Utah", "authors": ["Colm A. Kelleher", "George Knapp"], "publication": "Paraview Pocket Books", "date": "2005", "isbn": "978-1416505211" },
+    { "id": "wikipedia-skinwalker", "type": "website", "title": "Skin-walker", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Skin-walker", "accessed": "2026-05-07" }
+  ]
 }
